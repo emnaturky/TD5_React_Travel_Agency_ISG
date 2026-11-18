@@ -1,0 +1,7 @@
+.footer { background: #173341; color: #d7e5e9; padding: 27px 0; }
+.inner { max-width: 1300px; margin: 0 auto; padding: 0 clamp(22px, 5vw, 72px); display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.name { color: white; font-size: 17px; font-weight: 850; letter-spacing: -.05em; }
+.name span { color: #f3a48e; }
+.inner p { font-size: 12px; color: #c3d2da; }
+.inner a { color: #ffbba6; font-size: 12px; text-decoration: none; }
+@media (max-width: 740px) { .inner { flex-direction: column; text-align: center; } }

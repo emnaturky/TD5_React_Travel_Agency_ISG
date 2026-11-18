@@ -1,0 +1,7 @@
+.container { margin: 20px auto 44px; padding: 25px; max-width: 550px; background: #ffffff; border: 1px solid #dce7e9; border-radius: 12px; }
+.container h2 { font-size: 20px; color: #173b57; margin: 0 0 20px; }
+.container form { display: flex; flex-direction: column; gap: 10px; }
+.container label { font-weight: 600; font-size: 14px; }
+.container input { padding: 10px 12px; border: 1px solid #c9d7d9; border-radius: 7px; font: inherit; }
+.container button { cursor: pointer; border: none; border-radius: 7px; padding: 12px; background: #0fb9b1; color: white; font-weight: 700; margin-top: 10px; }
+.container button:hover { background: #0b9992; }

@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Inter, 'Segoe UI', Arial, sans-serif; color: #1b3849; background: #f8faf9; -webkit-font-smoothing: antialiased; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 3px solid #ed7662; outline-offset: 3px; }
+.app { min-height: 100vh; }
+.hero { min-height: 326px; background: #173341; position: relative; display: flex; align-items: center; overflow: hidden; }
+.hero__content { position: relative; z-index: 2; max-width: 1300px; padding: 62px clamp(22px, 5vw, 72px) 72px; width: 100%; margin: 0 auto; }
+.eyebrow { letter-spacing: .18em; color: #fabaa3; font-size: 11px; font-weight: 800; }
+.hero h1 { color: #fff; font-size: clamp(41px, 5.4vw, 76px); line-height: 1.07; letter-spacing: -.065em; margin: 15px 0 14px; max-width: 750px; }
+.hero__dot { color: #f4a68c; }
+.hero p { color: #c3d8db; font-size: 15px; line-height: 1.7; margin: 0 0 25px; max-width: 510px; }
+.hero__link { background: #f6bc9f; color: #173341; padding: 14px 19px; border-radius: 10px; font-size: 13px; display: inline-flex; gap: 18px; text-decoration: none; font-weight: 800; }
+.hero__link:hover { background: #ffcfb5; }
+.hero__light { position: absolute; border-radius: 50%; pointer-events: none; }
+.hero__light--one { width: 340px; height: 340px; right: 5%; top: -170px; background: #244957; }
+.hero__light--two { width: 300px; height: 300px; right: -110px; bottom: -170px; border: 60px solid #315866; }
+.hero__stamp { position: absolute; right: 15%; top: 50%; transform: translateY(-50%) rotate(11deg); border: 1px solid rgba(255,218,191,.5); border-radius: 50%; color: rgba(255,218,191,.68); width: 144px; height: 144px; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 22px; font-weight: 800; line-height: 1.15; letter-spacing: .08em; }
+.hero__stamp span { position: absolute; bottom: 15px; font-size: 17px; }
+@media (max-width: 900px) { .hero__stamp { right: 7%; opacity: .35; } }
+@media (max-width: 700px) { .hero__stamp { display: none; } .hero__content { padding-top: 54px; padding-bottom: 59px; } .hero { min-height: unset; } }
+
+.exercise-example { max-width: 850px; margin: 0 auto 55px; padding: 0 16px; }
+.exercise-example summary { cursor: pointer; font-weight: 650; color: #173b57; padding: 12px; text-align: center; }
+.exercise-example summary:hover { color: #0b9992; }
